@@ -1,2 +1,2 @@
 # UsefulCodingExamples
-Mainly functions created through coding practice.
+Functions created through coding practice.
