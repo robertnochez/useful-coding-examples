@@ -247,7 +247,7 @@ def front3_v2(str):
 
 ################################################################################
 
-def even_nums(StartValue, MaxValue):
+def even_nums(startValue, maxValue):
   """Given a starting value and a maximum value, print all even numbers from starting value to a maximum value.
   (Uses recursion).
 
@@ -259,12 +259,12 @@ def even_nums(StartValue, MaxValue):
   8
   10
   """
-  if StartValue > MaxValue:
+  if startValue > maxValue:
     return
-  if StartValue%2 != 0:
-    return even_nums(StartValue + 1, MaxValue)
-    print(StartValue)
-  return even_nums(StartValue + 2, MaxValue)
+  if startValue%2 != 0:
+    return even_nums(startValue + 1, maxValue)
+    print(startValue)
+  return even_nums(startValue + 2, maxValue)
 
 ################################################################################
 
